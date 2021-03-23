@@ -16,7 +16,7 @@ namespace calLib
 
         internal double SquareRoot(double num1)
         {
-            return 0.5 * num1;
+            return Math.Sqrt(num1);
         }
     }
 }

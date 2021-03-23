@@ -33,7 +33,7 @@ namespace UnitTestExe
             calLib.Calculation objs = new calLib.Calculation();
             double num1 = 12.21;
             
-            double result = 0.5*num1;
+            double result = Math.Sqrt(num1);
 
             Assert.AreEqual(result, objs.SquareRoot(num1));
         }
